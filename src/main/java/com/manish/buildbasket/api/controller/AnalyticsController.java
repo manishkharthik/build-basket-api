@@ -9,7 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/players")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = {"http://localhost:3000", "https://build-basket-1de5f6604f8e.herokuapp.com"})
 public class AnalyticsController {
 
     @Autowired
