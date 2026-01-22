@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/compare")
-@CrossOrigin(origins = {"http://localhost:3000", "https://build-basket-61cig9gz5-manishkharthiks-projects.vercel.app"})
+@CrossOrigin(origins = {"http://localhost:3000", "https://build-basket-frontend-omega.vercel.app"})
 public class CompareController {
 
     private final CompareService compareService;
